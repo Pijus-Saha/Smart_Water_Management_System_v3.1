@@ -37,10 +37,10 @@ An IoT-based water monitoring and pump control system built using **ESP32**, **H
    - **V2** → Force OFF Control (Switch)
 3. Copy your **Auth Token** into the code.
 
+## Code Overview : **https://github.com/Pijus-Saha/Smart_Water_Management_System_v3.1/blob/main/Smart%20Waterpump%20Management%20Report.pdf**
+
 ## Code Overview
 The system uses ultrasonic readings to calculate water level percentage:
 ```cpp
 float height = TANK_HEIGHT - distance;
-float percent = (height / TANK_HEIGHT) * 100.0;```
-
-## Code Overview : https://github.com/Pijus-Saha/Smart_Water_Management_System_v3.1/blob/main/Smart%20Waterpump%20Management%20Report.pdf
+float percent = (height / TANK_HEIGHT) * 100.0;
