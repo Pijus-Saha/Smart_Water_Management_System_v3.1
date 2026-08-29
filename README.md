@@ -42,3 +42,5 @@ The system uses ultrasonic readings to calculate water level percentage:
 ```cpp
 float height = TANK_HEIGHT - distance;
 float percent = (height / TANK_HEIGHT) * 100.0;
+
+## Report Link : https://github.com/Pijus-Saha/Smart_Water_Management_System_v3.1/blob/main/Smart%20Waterpump%20Management%20Report.pdf
